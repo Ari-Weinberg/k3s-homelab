@@ -1,0 +1,6 @@
+# Flux will create this during bootstrap — don't manually add it
+# clusters/local/flux-system/
+
+# Local overrides
+*.local.yaml
+.claude/
