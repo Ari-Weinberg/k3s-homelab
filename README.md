@@ -13,6 +13,14 @@ A 3-node k3s cluster built for learning Kubernetes. Deployed on Debian 12 VMs vi
 **k3s version:** v1.34.5+k3s1
 **k3s flags:** `--flannel-backend=none --disable-network-policy --disable-kube-proxy --cluster-init --disable traefik`
 
+## Node Prerequisites
+
+All nodes require the following packages installed at the OS level:
+
+| Package | Required by | Purpose |
+|---|---|---|
+| `open-iscsi` | Longhorn | Block storage volume attachment |
+
 ## Stack
 
 | Layer | Tool | Purpose |
